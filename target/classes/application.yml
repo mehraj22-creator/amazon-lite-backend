@@ -1,0 +1,25 @@
+spring:
+  application:
+    name: amazon-lite-backend
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/amazon_lite_db
+    username: postgres
+    password: mehraj
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    open-in-view: false
+    properties:
+      hibernate:
+        format_sql: true
+
+server:
+  port: 8080
+
+logging:
+  level:
+    root: INFO
+    com.mehraj.amazonlite: DEBUG
