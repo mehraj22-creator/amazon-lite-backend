@@ -1,8 +1,11 @@
 C:\Java-FullStack\amazon-lite-backend\src\main\java\com\mehraj\amazonlite\AmazonLiteBackendApplication.java
 C:\Java-FullStack\amazon-lite-backend\src\main\java\com\mehraj\amazonlite\common\ApiResponse.java
+C:\Java-FullStack\amazon-lite-backend\src\main\java\com\mehraj\amazonlite\controller\AuthenticationController.java
 C:\Java-FullStack\amazon-lite-backend\src\main\java\com\mehraj\amazonlite\controller\HealthController.java
 C:\Java-FullStack\amazon-lite-backend\src\main\java\com\mehraj\amazonlite\controller\UserController.java
+C:\Java-FullStack\amazon-lite-backend\src\main\java\com\mehraj\amazonlite\dto\request\LoginRequest.java
 C:\Java-FullStack\amazon-lite-backend\src\main\java\com\mehraj\amazonlite\dto\request\RegisterUserRequest.java
+C:\Java-FullStack\amazon-lite-backend\src\main\java\com\mehraj\amazonlite\dto\response\LoginResponse.java
 C:\Java-FullStack\amazon-lite-backend\src\main\java\com\mehraj\amazonlite\dto\response\UserResponse.java
 C:\Java-FullStack\amazon-lite-backend\src\main\java\com\mehraj\amazonlite\entity\BaseEntity.java
 C:\Java-FullStack\amazon-lite-backend\src\main\java\com\mehraj\amazonlite\entity\User.java
@@ -10,6 +13,11 @@ C:\Java-FullStack\amazon-lite-backend\src\main\java\com\mehraj\amazonlite\except
 C:\Java-FullStack\amazon-lite-backend\src\main\java\com\mehraj\amazonlite\exception\GlobalExceptionHandler.java
 C:\Java-FullStack\amazon-lite-backend\src\main\java\com\mehraj\amazonlite\exception\ResourceNotFoundException.java
 C:\Java-FullStack\amazon-lite-backend\src\main\java\com\mehraj\amazonlite\repository\UserRepository.java
+C:\Java-FullStack\amazon-lite-backend\src\main\java\com\mehraj\amazonlite\security\CustomUserDetailsService.java
+C:\Java-FullStack\amazon-lite-backend\src\main\java\com\mehraj\amazonlite\security\JwtAuthenticationFilter.java
+C:\Java-FullStack\amazon-lite-backend\src\main\java\com\mehraj\amazonlite\security\JwtService.java
 C:\Java-FullStack\amazon-lite-backend\src\main\java\com\mehraj\amazonlite\security\SecurityConfig.java
+C:\Java-FullStack\amazon-lite-backend\src\main\java\com\mehraj\amazonlite\service\AuthenticationService.java
+C:\Java-FullStack\amazon-lite-backend\src\main\java\com\mehraj\amazonlite\service\impl\AuthenticationServiceImpl.java
 C:\Java-FullStack\amazon-lite-backend\src\main\java\com\mehraj\amazonlite\service\impl\UserServiceImpl.java
 C:\Java-FullStack\amazon-lite-backend\src\main\java\com\mehraj\amazonlite\service\UserService.java
