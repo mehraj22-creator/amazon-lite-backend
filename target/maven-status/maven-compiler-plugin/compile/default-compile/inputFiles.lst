@@ -6,6 +6,9 @@ C:\Java-FullStack\amazon-lite-backend\src\main\java\com\mehraj\amazonlite\dto\re
 C:\Java-FullStack\amazon-lite-backend\src\main\java\com\mehraj\amazonlite\dto\response\UserResponse.java
 C:\Java-FullStack\amazon-lite-backend\src\main\java\com\mehraj\amazonlite\entity\BaseEntity.java
 C:\Java-FullStack\amazon-lite-backend\src\main\java\com\mehraj\amazonlite\entity\User.java
+C:\Java-FullStack\amazon-lite-backend\src\main\java\com\mehraj\amazonlite\exception\DuplicateResourceException.java
+C:\Java-FullStack\amazon-lite-backend\src\main\java\com\mehraj\amazonlite\exception\GlobalExceptionHandler.java
+C:\Java-FullStack\amazon-lite-backend\src\main\java\com\mehraj\amazonlite\exception\ResourceNotFoundException.java
 C:\Java-FullStack\amazon-lite-backend\src\main\java\com\mehraj\amazonlite\repository\UserRepository.java
 C:\Java-FullStack\amazon-lite-backend\src\main\java\com\mehraj\amazonlite\security\SecurityConfig.java
 C:\Java-FullStack\amazon-lite-backend\src\main\java\com\mehraj\amazonlite\service\impl\UserServiceImpl.java

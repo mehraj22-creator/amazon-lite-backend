@@ -1,5 +1,6 @@
 com\mehraj\amazonlite\AmazonLiteBackendApplication.class
 com\mehraj\amazonlite\controller\HealthController.class
+com\mehraj\amazonlite\exception\ResourceNotFoundException.class
 com\mehraj\amazonlite\service\impl\UserServiceImpl.class
 com\mehraj\amazonlite\common\ApiResponse.class
 com\mehraj\amazonlite\dto\request\RegisterUserRequest.class
@@ -8,6 +9,8 @@ com\mehraj\amazonlite\security\SecurityConfig.class
 com\mehraj\amazonlite\controller\UserController.class
 com\mehraj\amazonlite\service\UserService.class
 com\mehraj\amazonlite\entity\BaseEntity.class
+com\mehraj\amazonlite\exception\GlobalExceptionHandler.class
 com\mehraj\amazonlite\entity\User.class
+com\mehraj\amazonlite\exception\DuplicateResourceException.class
 com\mehraj\amazonlite\dto\response\UserResponse.class
 com\mehraj\amazonlite\repository\UserRepository.class
