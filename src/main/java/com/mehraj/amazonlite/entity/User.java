@@ -2,10 +2,14 @@ package com.mehraj.amazonlite.entity;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
+import jakarta.persistence.Enumerated;
 import jakarta.persistence.Table;
 import lombok.Getter;
 import lombok.Setter;
+import com.mehraj.amazonlite.enums.Role;
 
+import jakarta.persistence.EnumType;
+// import jakarta.persistence.Enumerated;
 @Getter
 @Setter
 @Entity
@@ -23,5 +27,9 @@ public class User extends BaseEntity {
 
     @Column(nullable = false)
     private String password;
+
+    @Enumerated(EnumType.STRING)
+    @Column(nullable = false)
+    private Role role;
 
 }
